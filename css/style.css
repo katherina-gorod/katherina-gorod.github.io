@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: "SerifBabe";
+    src: url("/Users/katherinagorodynska/Desktop/bachelor/webseite/SCHRIFTEN/SerifbabeAlpha-Regular.otf");
+}
+
+ 
+
+@font-face{
+    font-family: "Helvetica";
+    src: url("/Users/katherinagorodynska/Desktop/bachelor/webseite/SCHRIFTEN/MonumentGrotesk-Regular.otf");
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    display: run-in
+
+
+
+
+}
+
+#help-button {
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    width: 50px;
+    height: 30px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family:SerifBabe
+    margin-left:20px;
+    
+   
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    text-align: left;
+    margin: 100;
+}
+
+.flex-container .v-spacer {
+    width: 1px;
+    background: #000000;
+    text-align: left;
+    margin-left: 500
+}
+
+.pre-item {
+	width: 1px !important; 
+}
+
+.post-item {
+	width: 1px !important; 
+}
+
+.flex-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    padding: 0.1px;
+    text-align: left;
+    font-family: SerifBabe
+    
+    transition-property: all;
+    transition-property: transform;
+    transition: all 0.2s;
+
+}
+
+.flex-container > div img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-container > div.hidden {
+    display: none;
+}
+
+.flex-container > div:not(:last-child) {
+    border-right: 1px solid #000000;
+}
+
+.flex-container > div.collapsed {
+    width: 185px;
+}
+
+.flex-container > div.collapsed .body {
+    display: none;
+}
+
+.flex-container > div:not(.collapsed) {
+    overflow-y: auto;
+}
+
+.flex-container > div.collapsed a.title {
+    text-orientation: center;
+    margin: auto;
+}
+
+.flex-container > div.collapsed a.title.right{
+	writing-mode: sideways-rl;
+}
+.flex-container > div.collapsed a.title.left{
+	writing-mode: sideways-lr;
+}
+
+
+.flex-container > div:not(.collapsed) a.title,
+.flex-container > div:not(.collapsed) .body {
+    display: block;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.flex-container > div a.title {
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: underline;
+    color: #000000;
+    font-weight: regular;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 8px;
+}
+    
+.left {
+font-family: SerifBabe
+
+
+}
+
+.right {
+font-family: Helvetica
+
+}
+
+
+a {
+font-family: SerifBabe;
+font-size: 40px;
+text-decoration: none;
+color: #000000;
+margin-left:10px
+
+}
+
+
