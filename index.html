@@ -5,7 +5,6 @@
     <link rel="stylesheet" media="all" href="css/style.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-    <link href="/Users/katherinagorodynska/Downloads/Minipax-master 3/fonts/webfonts/Minipax-Bold.woff" rel="stylesheet">
     <title>
         Form Perform
     </title>
@@ -32,7 +31,7 @@
 
     <div class="item home">
         <div class="body"><br>
-<img src='/Users/katherinagorodynska/Desktop/bachelor/visualisierungen: bildmaterial/0_praxis-übungen/GIF_Probe.gif'> 
+<img src='/Users/katherinagorodynska/Desktop/BILD_19.jpg'> <a href="http://www.khist.uzh.ch/chairs/bildende/lehre/Sontag_Interpretation.pdf">Susan Sonntags Text</a>
         </div>
     </div>
 
@@ -44,19 +43,19 @@
 		<a href="javascript:void(0);" class="title <%= position %>">
 			<%= title %>
 		</a>
-		<div class="body">
-			<%= body %>
+		<div class="body <%= position %>">
+                <%= body %>
+			
 		</div>
 	</div>	
 </script>
 <script src="bower_components/underscore/underscore-min.js"></script>
 <script src="js/main.js"></script>
-<audio controls autoplay>
-    <source src="/Users/katherinagorodynska/Music/iTunes/iTunes Media/Voice Memos/Formen.m4a" type="audio/mpeg">
-    
-</audio>
 
-
+  <script>
+    for (var i = 0; i < document.links.length; ++i)
+      document.querySelector('output').innerText += '<br>' + document.links[i];
+   </script>
 
 </body>
 </html>

@@ -22,6 +22,7 @@ html, body {
 
 
 
+
 }
 
 #help-button {
@@ -34,7 +35,7 @@ html, body {
     line-height: 40px;
     font-size: 30px;
     cursor: pointer;
-    font-family:SerifBabe
+    font-family: "SerifBabe";
     margin-left:20px;
     
    
@@ -53,7 +54,9 @@ html, body {
     width: 1px;
     background: #000000;
     text-align: left;
-    margin-left: 500
+    margin-left: 500;
+    cursor: pointer;
+
 }
 
 .pre-item {
@@ -71,7 +74,7 @@ html, body {
     width: 100%;
     padding: 0.1px;
     text-align: left;
-    font-family: SerifBabe
+    
     
     transition-property: all;
     transition-property: transform;
@@ -127,32 +130,32 @@ html, body {
 .flex-container > div a.title {
     font-size: 30px;
     line-height: 30px;
-    text-decoration: underline;
     color: #000000;
     font-weight: regular;
     text-align: center;
     text-decoration: none;
-    margin-top: 8px;
+    margin-top: 10px;
 }
     
 .left {
-font-family: SerifBabe
+font-family: "Helvetica";
 
 
 }
 
 .right {
-font-family: Helvetica
+font-family: "SerifBabe";
 
 }
 
 
 a {
-font-family: SerifBabe;
+font-family: "SerifBabe";
 font-size: 40px;
 text-decoration: none;
 color: #000000;
-margin-left:10px
+margin-left:10px;
+cursor: pointer;
 
 }
 
