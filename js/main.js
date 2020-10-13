@@ -78,7 +78,7 @@
             pair = {
                 pair: [
                     {
-                        title: "<img src='https://github.com/katherina-gorod/katherina-gorod.github.io/blob/main/GIFS/GIF2.gif'>",
+                        title: "<img src='GIFS/GIF_1.gif'>",
                         body: "<p>Während in meiner anfänglichen  Recherche zu der Begrifflichkeit des Performativen die Performance einem Gegensatz der Form glich, fand ich im Laufe der Arbeit immer mehr Verschränkungen, was nicht verwunderlich scheint, heißt doch übersetzt „perform“: durch Form. So scheinen beide Begriffe einerseits eng verbunden, und stehen doch auch in Opposition. Während die Form eine abgeschlossene Gestalt ist, zeichnete sich die Performance (zumindest in der Zeit ihrer Einführung) dadurch aus, dass sie nicht reproduzierbar und flüchtig ist. Während der Begriff der Performanz aus der Spechakttheorie kommt und Sätze zusammenfasst, die von einer rein beschreibenden in eine handelnde Funkion übergehen, suchte die Performance als Kunstform nach der Befreiung aus kausaler Verkettung und richtete sich gegen den Objektcharakter der Kunst. Heute ist der Begriff der Performance auf weite Felder ausgebreitet, unter anderem ist er fest verankert in neuen Arbeitsstrukturen, die auch als „New Labor“ bezeichnet werden.</p>",
                         position: "right"
                         
