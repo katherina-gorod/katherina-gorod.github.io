@@ -220,7 +220,7 @@
                 ,
 
                     {
-                        title: "<img src= '/Users/katherinagorodynska/Desktop/Form-Perform (GitHub)/katherina-gorod.github.io/GIFS/GIF_1.gif'>",
+                        title: "<img src= 'GIFS/GIF_1.gif'>",
                         body: "<p>Die Vermischung von Informativität und Naivität beschrieben die Kulturwissenschaftler Timotheus Vermeulen und Robin van der Anker als ein Pendelmoment, welches kennzeichnend ist für die Struktur der Gefühle in der Metamoderne. Mit dem Begriff „Metaxis“,  wird von Plato eine Existenz im fortwährenden Dazwischen beschrieben, oszillierend zwischen entgegengesetzten Polen. In diesem Zustand zwischen Enthusiasmus und Ironie, zwischen Empathie und Apathie, zwischen Hoffnung und Melancholie gibt es keine Balance. Jedes Mal, dass ein modernistischer Enthusiasmus in Richtung Fanatismus schlägt, bringt das Gewicht des Pendels es wieder zurück zur Ironie oder Apathie. Somit bleibt das Pendel dauerhaft in der Bewegung des Dilemmas: Es sucht, in dem besten Wissen, nicht zu finden.</p>",
                         position: "left"
                     }
