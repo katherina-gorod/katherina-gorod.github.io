@@ -17,9 +17,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 20px;
-    display: run-in;
-    font-family: "SerifBabe";
-
+    display: run-in
 
 
 
@@ -34,7 +32,7 @@ html, body {
     height: 30px;
     text-align: left;
     line-height: 40px;
-    font-size: 50px;
+    font-size: 30px;
     cursor: pointer;
     font-family: "SerifBabe";
     margin-left:10px;
@@ -55,9 +53,7 @@ html, body {
     width: 1px;
     background: #000000;
     text-align: left;
-    margin-left: 500;
-    cursor: pointer;
-
+    margin-left: 500
 }
 
 .pre-item {
@@ -75,7 +71,7 @@ html, body {
     width: 100%;
     padding: 0.1px;
     text-align: left;
-    
+   
     
     transition-property: all;
     transition-property: transform;
@@ -97,7 +93,7 @@ html, body {
 }
 
 .flex-container > div.collapsed {
-    width: 185px;
+    width: 105px;
 }
 
 .flex-container > div.collapsed .body {
@@ -135,17 +131,17 @@ html, body {
     font-weight: regular;
     text-align: center;
     text-decoration: none;
-    margin-top: 10px;
+    margin-top: 8px;
 }
     
 .left {
-font-family: "Helvetica";
+font-family: "SerifBabe";
 
 
 }
 
 .right {
-font-family: "SerifBabe";
+font-family: "Helvetica";
 
 }
 
@@ -155,8 +151,7 @@ font-family: "SerifBabe";
 font-size: 50px;
 text-decoration: none;
 color: #000000;
-margin-left:10px;
-cursor: pointer;
+margin-left:10px
 
 }
 
