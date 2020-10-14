@@ -203,7 +203,7 @@
 
                     {
                         title: "Sehen",
-                        body: "<p><img src='/Users/katherinagorodynska/Desktop/Form-Perform (GitHub)/katherina-gorod.github.io/BILDER/Pfaller.png'></p>",
+                        body: "<p><img src='BILDER/Pfaller.png'></p>",
                         position: "left"
                     }
                 ]
