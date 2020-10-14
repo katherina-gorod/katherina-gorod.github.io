@@ -114,10 +114,16 @@ html, body {
 }
 
 .flex-container > div.collapsed a.title.right{
-	writing-mode: sideways-rl;
+    writing-mode: vertical-rl;
 }
+
 .flex-container > div.collapsed a.title.left{
-	writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 
