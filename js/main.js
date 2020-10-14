@@ -214,7 +214,7 @@
                 pair: [
                     {
                         title: "Ende",
-                        body: "<p><img src= '/Users/katherinagorodynska/Desktop/Form-Perform (GitHub)/katherina-gorod.github.io/BILDER/2037022.jpg'></p>",
+                        body: "<p><img src='BILDER/2037022.jpg'></p>",
                         position: "right"
                     }
                 ,
