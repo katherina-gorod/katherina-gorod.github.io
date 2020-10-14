@@ -128,7 +128,7 @@
                     {
                         
                         title: "Transform",
-                        body: "<p><img src='/Users/katherinagorodynska/Desktop/Form-Perform (GitHub)/katherina-gorod.github.io/GIFS/GIF_3.gif'></p>",
+                        body: "<GIFS/GIF_3.gif>",
 
                         position: "left"
                     }
