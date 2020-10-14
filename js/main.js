@@ -203,7 +203,7 @@
 
                     {
                         title: "Sehen",
-                        body: "<p><img src='BILDER/Pfaller.png'></p>",
+                        body: "<img src='BILDER/Pfaller.png'>"
                         position: "left"
                     }
                 ]
