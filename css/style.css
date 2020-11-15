@@ -143,6 +143,7 @@ html, body {
     text-decoration: none;
     margin-top: 10px;
 }
+
     
 .left {
 font-family: "Helvetica";
@@ -155,6 +156,12 @@ font-family: "SerifBabe";
 
 }
 
+.v-spacer {
+    &:hover {
+        color: #0000ee;
+         }
+  }
+
 
 a {
 font-family: "SerifBabe";
@@ -163,6 +170,9 @@ text-decoration: none;
 color: #000000;
 margin-left:10px;
 cursor: pointer;
+
+
+
 
 }
 
