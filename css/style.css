@@ -57,10 +57,6 @@ html, body {
     text-align: left;
     margin-left: 500;
     cursor: pointer;
-     &:hover {
-        color: #0000ee;
-         }
-  }
 
 }
 
